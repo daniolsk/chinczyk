@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(230, 255, 230);
+}
+
+#loginForm {
+    padding: 40px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#info {
+    font-size: 1.5em;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    font-size: 1.4em;
+    padding: 10px;
+}
+
+input[type='text'] {
+    border: none;
+}
+
+input[type='submit'] {
+    border: none;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "chinczyk",
+    "version": "1.0.0",
+    "description": "chinczyk",
+    "main": "server.js",
+    "dependencies": {
+        "cookie-parser": "^1.4.5",
+        "express": "^4.17.1",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
