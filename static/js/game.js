@@ -1,6 +1,8 @@
 import Updater from './updater.js'
+import Speaker from './speaker.js'
 
 const updater = new Updater;
+const speaker = new Speaker;
 
 let rollButt = document.querySelector('#roll')
 let dice = document.querySelector('#dice')
@@ -21,6 +23,9 @@ const showDiceSequence = async (sequence) => {
         await delay(180)
         dice.style.backgroundImage = `url(../img/${roll}.png)`
     }
+
+    const number = sequence[sequence.length - 1];
+    speaker.speak(number);
 }
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
